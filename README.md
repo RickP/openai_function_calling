@@ -9,6 +9,9 @@ This code automatically generates an assistant with the function definitions for
 
     pip install -r requirements.txt
 
+If arrow keys don't work as expected when inputting text you also need the 'readline' or 'gnureadline' packages. 
+They should be installed via your systems package manager (apt, brew, etc.).
+
 ## Configuration
 
 You need either an environment variable OPENAI_API_KEY or set your API key in assistant.py (variable openai_api_key).
@@ -46,3 +49,8 @@ If you make changes to your functions.py you need to reconfigure the assistant o
 
 As there is an example function that can get the weather for a latitude and longitude try a prompt like:
 "What is the weather in Berlin next Saturday?". The model will figure out how to invoke the local function and use it to answer the question.
+
+## ToDo
+
+Scrolling up does not really work on longer responses. Text get's repeated.
+Pull requests are welcome.
