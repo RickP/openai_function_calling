@@ -52,5 +52,5 @@ As there is an example function that can get the weather for a latitude and long
 
 ## ToDo
 
-Scrolling up does not really work on longer responses. Text get's repeated.
+Scrolling up does not really work on longer responses (Text get's repeated).
 Pull requests are welcome.
