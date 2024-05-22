@@ -43,7 +43,9 @@ def add_numbers(number_a: int, number_b: int, operation: str = 'add') -> int:
 
     python assistant.py
 
-Type "exit" or "quit" to get out. If you make changes to your functions.py you need to reconfigure the assistant on openAI with:
+Type "exit" or "quit" to get out.
+
+If you make changes to your functions.py you need to reconfigure the assistant on openAI with:
 
     python assistant.py -r
 
