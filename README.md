@@ -10,8 +10,8 @@ This code automatically generates an assistant with the function definitions for
 The project consists of 3 python files
 
 - assistant.py - The main file that creates the assistant and starts the thread and runner.
-- functions.py - The file that contains the functions that are called by the model.
-- generate_json.py - The file that contains the decorator that creates the json for the functions to configure the assistant.
+- functions.py - The file that contains the functions that are callable by the model.
+- generate_json.py - The decorator that creates the json from the functions in functions.py to configure the OpenAI assistant.
 
 ## Installation
 
