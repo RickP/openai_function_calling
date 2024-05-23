@@ -1,7 +1,7 @@
 # OpenAI local function calling template
 
-A command line client for the OpenAI API with local function calling (https://platform.openai.com/docs/guides/function-calling).
-It serves as an extended example on how to implement this for OpenAI assistants. 
+A command line client for the OpenAI API with local [function calling](https://platform.openai.com/docs/guides/function-calling).
+It serves as an extended example on how to implement this for OpenAI assistants. I used this as a base for my text-based home automation controller with functions that control things like lights and my sonos system on [this device](https://hackaday.io/project/196223-post-apocalyptic-terminal).
 
 This code automatically generates an assistant with the function definitions for python functions in a file and creates a thread and a runner for the assistant. It uses the rich module to render formatted markdown of the responses and also calls the defined functions when the model wants to execute them and returns the results of the functions to the model.
 
