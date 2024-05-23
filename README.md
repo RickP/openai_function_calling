@@ -57,7 +57,7 @@ If you make changes to your functions.py or your assistant config (e.g. model or
 
     python assistant.py -r
 
-You can check the correctness of the function definitions on the (OpenAI developer website)[https://platform.openai.com/assistants]
+You can check the correctness of the function definitions on the [OpenAI developer website](https://platform.openai.com/assistants)
 
 As there is an example function that can get the weather for a latitude and longitude try a prompt like:
 "What is the weather in Berlin next Saturday?". The model will figure out how to invoke the local function and use it to answer the question.
