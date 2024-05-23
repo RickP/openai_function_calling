@@ -15,7 +15,7 @@ They should be installed via your systems package manager (apt, brew, etc.).
 ## Configuration
 
 You need either an environment variable OPENAI_API_KEY or set your API key in assistant.py (variable openai_api_key).
-You can also change the model to use in this file (variable model).
+You can also change the model to use in this file (variable model). There is also a setting for the system prompt (assistant_instructions).
 
 ## Functions
 
@@ -45,7 +45,7 @@ def add_numbers(number_a: int, number_b: int, operation: str = 'add') -> int:
 
 Type "exit" or "quit" to get out.
 
-If you make changes to your functions.py you need to reconfigure the assistant on openAI with:
+If you make changes to your functions.py or your assistant config (e.g. model or system prompt) you need to reconfigure the assistant on openAI with:
 
     python assistant.py -r
 
