@@ -5,6 +5,14 @@ It serves as an extended example on how to implement this for OpenAI assistants.
 
 This code automatically generates an assistant with the function definitions for python functions in a file and creates a thread and a runner for the assistant. It uses the rich module to render formatted markdown of the responses and also calls the defined functions when the model wants to execute them and returns the results of the functions to the model.
 
+## Structure
+
+The project consists of 3 python files
+
+- assistant.py - The main file that creates the assistant and starts the thread and runner.
+- functions.py - The file that contains the functions that are called by the model.
+- generate_json.py - The file that contains the decorator that creates the json for the functions to configure the assistant.
+
 ## Installation
 
     pip install -r requirements.txt
