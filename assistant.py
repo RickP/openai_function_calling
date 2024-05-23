@@ -76,6 +76,8 @@ if args.reconfigure:
 
     assistant = client.beta.assistants.update(
         assistant_id=assistant_id,
+        instructions=assistant_instructions,
+        model=model,
         tools=tools
     )
     
